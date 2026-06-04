@@ -1,0 +1,29 @@
+# 클라이언트 민감 자료 — 절대 커밋 금지
+01_inputs/raw/
+01_inputs/processed/
+01_inputs/originals/
+
+# 프로젝트별 채워진 파일
+00_project/client_fact_brief.md
+CLAUDE.md
+
+# 작업 산출물
+03_outputs/
+
+# 핸드오프 실제 내용
+04_handoff/current_status.md
+04_handoff/decision_log.md
+04_handoff/open_questions.md
+
+# 빈 폴더 유지용 파일은 커밋
+!01_inputs/raw/.gitkeep
+!01_inputs/processed/.gitkeep
+!03_outputs/.gitkeep
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 임시 파일
+~$*
+*.tmp
